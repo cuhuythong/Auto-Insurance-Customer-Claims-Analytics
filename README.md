@@ -50,6 +50,17 @@ Dataset source referenced in the original project: Kaggle, **Auto Insurance Data
 
 The Tableau workbook also contains parameters that dynamically switch among demographic, policy, and vehicle dimensions, allowing the same views to support multiple analytical questions.
 
+## Dashboard Preview
+
+The Tableau workbook stores preview thumbnails for the final dashboards. These images are extracted directly from the packaged workbook so the analysis can be reviewed on GitHub without opening Tableau. The interactive versions remain available in the `.twbx` file.
+
+<table>
+<tr>
+<td width="50%" valign="top"><strong>Customer Dashboard</strong><br><img src="images/customer_dashboard.png" alt="Customer Dashboard"></td>
+<td width="50%" valign="top"><strong>Claim Dashboard</strong><br><img src="images/claim_dashboard.png" alt="Claim Dashboard"></td>
+</tr>
+</table>
+
 ## Interactive Tableau Analysis
 
 The packaged workbook contains **14 worksheets** and four primary presentation views:
@@ -106,6 +117,8 @@ auto-insurance-customer-claims-analytics/
 │   └── auto_insurance_customer_claims_analytics.twbx
 └── images/
     └── project_cover.png
+    ├── customer_dashboard.png
+    └── claim_dashboard.png
 ```
 
 ## How to Explore the Project
