@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Tableau temporary / backup files
+*.twb~
+*.twbx~
+*.bak
+
+# Python cache (if analysis scripts are added later)
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
